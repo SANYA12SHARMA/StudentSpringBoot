@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping("/api/students")
-public class Controller {
+public class controller {
     private HashMap<Integer, Student> map = new HashMap<>();
     private int id = 1;
 
